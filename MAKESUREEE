@@ -1,13 +1,1 @@
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "MAKE SURE";
-    Text = "Are you want to run script?";
-    Duration = math.huge;
-    Button1 = "Yes";
-    Button2 = "No";
-})
-
-StarterGui.NotificationClicked:Connect(function(button)
-    if button == "Yes" then
-        loadstring(game:HttpGet("https://pastebin.com/raw/LY6USwN2"))()
-    end
-end)
+loadstring(game:HttpGet("https://pastebin.com/raw/LY6USwN2"))() -- if you're trying to copy my script is big skill issue LIL BRO 
