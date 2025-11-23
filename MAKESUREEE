@@ -6,7 +6,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Button2 = "No";
 })
 
--- รอปุ่มถูกกด
 StarterGui.NotificationClicked:Connect(function(button)
     if button == "Yes" then
         loadstring(game:HttpGet("https://pastebin.com/raw/LY6USwN2"))()
